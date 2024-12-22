@@ -1,4 +1,6 @@
 # Game Content Design: Map Generation
+* How to run the code
+`python RPGGame.py`
 * Fitness function:
 1. River Connectivity:
 Rivers ("1") should be connected. A river tile with fewer than one adjacent river results in a fitness penalty of -1000, while two adjacent rivers incur -500, and three adjacent rivers incur -100. This encourages continuous and branching rivers.

@@ -11,3 +11,8 @@ Houses ("6") should be located near rivers. If a house has fewer than two adjace
 Riverstone tiles ("4") are counted but not explicitly penalized unless they contribute to excessive river coverage.
 4. River Overuse Penalty:
 If the total number of river-related tiles exceeds 250, a penalty of (river_count - 250) * 1000 is applied to discourage overly water-dominated maps. 
+* Final result after 300 generations
+![Original Image](https://github.com/zephyrxin01/Map-generation/blob/main/output/final_generated_map%20300.jpg)
+  * The paddy fields and houses should be located near the river.
+  * The river should not be isolated; a connected river system is better.
+  * The landscape should not have too many rivers, as water resources are precious and limited.

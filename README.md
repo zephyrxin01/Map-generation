@@ -1,5 +1,5 @@
 # Game Content Design: Map Generation
-* How to run the code
+* How to run the code:
 `python RPGGame.py`
 * Fitness function:
 1. River Connectivity:
